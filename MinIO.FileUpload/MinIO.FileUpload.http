@@ -1,0 +1,6 @@
+@MinIO.FileUpload_HostAddress = http://localhost:5296
+
+GET {{MinIO.FileUpload_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
